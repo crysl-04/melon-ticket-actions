@@ -11,6 +11,7 @@ jobs:
       - name: Lint
         uses: mooyoul/tslint-actions@master
         with:
+          product-id: 210962
           token: ${{ secrets.GITHUB_TOKEN }}
           pattern: '*.ts'
       - name: Build
